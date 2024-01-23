@@ -9,6 +9,9 @@
  * You can reassign a variable
  * var name = 'Moh'
  * name = 'Mary'
+ * 
+ * 
+ * its always globally scoped
  */
 
 
@@ -70,3 +73,8 @@
 
       let area = Finallength * Finalwidth
       let perimeter = (Finalwidth + Finallength) * 2 
+
+      console.log('perimeter')
+      console.log(perimeter)
+      console.log('area')
+      console.log(area)
