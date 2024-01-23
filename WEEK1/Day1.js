@@ -58,6 +58,15 @@
       * @MODULUS -> %
       */
 
-      const profit = 1000 - 500 - 200
+      //const profit = 1000 - 500 - 200
       
-      console.log(profit)
+      //console.log(profit)
+
+      let length=prompt('Enter length')
+      let width=prompt('Enter width')
+
+      let Finallength=parseInt(length)
+      let Finalwidth=parseInt(width)
+
+      let area = Finallength * Finalwidth
+      let perimeter = (Finalwidth + Finallength) * 2 
