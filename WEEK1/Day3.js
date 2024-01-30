@@ -18,20 +18,20 @@
 //  console.log(numbers.length)
 //  console.log(mixture.length)
 
-let names = ['Peter', 'John,', 'Mary', 'Jane']
-let numbers = [1,2,3,4,5]
-let mixture = ['Dan', 1, true, undefined, null]
- //ITERATION / LOOPS
- for (let i = 0; i < names.length; i++){
-     console.log(names[i])
- }
+// let names = ['Peter', 'John,', 'Mary', 'Jane']
+// let numbers = [1,2,3,4,5]
+// let mixture = ['Dan', 1, true, undefined, null]
+//  //ITERATION / LOOPS
+//  for (let i = 0; i < names.length; i++){
+//      console.log(names[i])
+//  }
 
 
  //MANIPULATIONS
  //PUSH -> adds an item at the end of the list
- names.push('Maurine')
- console.log(names)
- console.log(names[names.length -1]) //know the last item in a list
+//  names.push('Maurine')
+//  console.log(names)
+//  console.log(names[names.length -1]) //know the last item in a list
 
  //POP -> removes an item at the end of the list
 
@@ -50,3 +50,23 @@ let mixture = ['Dan', 1, true, undefined, null]
 
  //RECURSION
  //6 -> 6-1 (n = n-1)
+
+
+
+function climbStairs(n) {
+  if (n <= 2) {
+    return n;
+  }
+  
+  let dp = new Array(n + 1);
+  dp[1] = 1;
+  dp[2] = 2;
+  
+  for (let i = 3; i <= n; i++) {
+    dp[i] = dp[i - 1] + dp[i - 2];
+  }
+  
+  return dp[n];
+}
+
+console.log(climbStairs(5));
