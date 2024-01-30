@@ -1,7 +1,7 @@
 /**
  * @ARRAYGROUPING
- * Object.groupBy()->
- * Map.groupBy() ->
+ * Object.groupBy()
+ * Map.groupBy()
  * 
  * syntax: Object.groupBy(items, callbackFn)
  * parameters: items (an iterable(such as an array) whose elements will be grouped). callbackFn (a function to execute for each element in the iterable)
@@ -33,7 +33,3 @@ const groupBytype = Object.groupBy(stock, (item) => item.type);
    
 
 console.log(groupBytype);
-
-//   const grouped = groupBy(stock, ({ type }) => type);
-//   console.log(groupedstock);
-// return stock.type;
