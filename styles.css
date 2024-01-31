@@ -1,0 +1,34 @@
+*{
+    margin: 20px;
+}
+
+/* body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+} */
+.parent-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .list-title {
+    cursor: pointer;
+    background-color: darkgrey;
+    font-size: 20px;
+  }
+  
+  .sub-list {
+    list-style-type: none;
+    padding-left: 20px;
+    color: maroon;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
