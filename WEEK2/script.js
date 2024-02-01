@@ -4,3 +4,4 @@ document.querySelector('#parent-list').addEventListener('click', function(event)
       subList.classList.toggle('hidden');
     }
   });
+

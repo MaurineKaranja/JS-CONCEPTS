@@ -78,3 +78,11 @@
       console.log(perimeter)
       console.log('area')
       console.log(area)
+
+      /**
+       * @NAMING RULES
+       * Pascal Case
+       * CamelCase first name should start with a small letter. the 2nd should start witha capital letter
+       * Snake_Case
+       * Kebab_Case
+       */
