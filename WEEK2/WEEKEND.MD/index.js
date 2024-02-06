@@ -21,9 +21,14 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     resultText.textContent = result;
     updateScore(result);
 
-    // if (playerScore >=5 || computerScore >= 5){
-    //   alert("Game Over! Resetting...");
-    //   resetGame();
+    if (playerScore >=5 || computerScore >= 5){
+      alert("Game Over! Resetting...");
+      resetGame();
+    }
+
+    // function resetGame(){
+    //     (playerScore >=5 || computerScore >=5)
+    //     return "Reset Game";
     // }
 }));
 
